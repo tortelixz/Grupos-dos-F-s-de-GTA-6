@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+    color: #111111;
+    margin: 0;
+  }
+}
+
+@keyframes pulse-btn {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+  }
+  70% {
+    box-shadow: 0 0 0 16px rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes pulse-vaga {
+  0% {
+    transform: scale(1);
+    color: #000000;
+  }
+  50% {
+    transform: scale(1.15);
+    color: #e53935;
+  }
+  100% {
+    transform: scale(1);
+    color: #000000;
+  }
+}
+
+.animate-pulse-btn {
+  animation: pulse-btn 1.8s infinite;
+}
+
+.animate-pulse-vaga {
+  animation: pulse-vaga 1.5s infinite;
+}

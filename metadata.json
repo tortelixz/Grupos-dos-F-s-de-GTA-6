@@ -1,0 +1,6 @@
+{
+  "name": "Vigia das Promo",
+  "description": "As melhores promos e cupons de descontos da internet. Participe do grupo de forma gratuita no WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
